@@ -1,0 +1,27 @@
+title: "高需求陷阱 | The High-Demand Trap"
+description: "AI投资繁荣的结构性盈利悖论 — A working paper on the structural profitability paradox in the AI investment boom"
+author: Winter
+email: ""
+baseurl: "/high-demand-trap"
+url: "https://liudoong.github.io"
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# MathJax
+mathjax: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
